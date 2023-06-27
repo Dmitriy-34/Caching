@@ -2,9 +2,9 @@ import redis
 import json
 
 red = redis.Redis(
-    host='redis-10120.c1.asia-northeast1-1.gce.cloud.redislabs.com',
-    port=10120,
-    password='lo7x4zi6MQPXPaAQXbAAnJfXX44RqK2F'
+    host='ваш хост',
+    port=ваш портт,
+    password='пароль'
 )
 
 # Записываем данные в кеш
